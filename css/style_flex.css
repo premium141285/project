@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    height: 168px;
+    display: flex;
+}
+
+nav {
+    background: #1729B0;
+}
+
+main {
+    display: flex;
+    padding: 0;
+}
+
+article {
+    min-height: 300px;
+    margin-left: -5px;
+    border-left: 1px dotted black;
+}
+
+
+footer {
+    background: #00B64F;
+    
+    text-align: center;
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+nav ul.menu>li>a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #1729B0;
+    text-decoration: none;
+}
+
+nav ul.menu>li>a:hover {
+    background-color: #00B64F;
+}
+
+.logo {
+    margin: 20px 0;
+    height: 128px;
+}
+
+.slogan {
+    align-self:center;
+    border-left: 1px solid;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-family: 'Bad Script', cursive;
+    font-size: 36px;
+}
+
+p.titleNews {
+    text-align: center;
+}
+
+ul.news {
+    margin-left: 20px;
+}
+
+ul.news li {
+    margin-bottom: 10px;
+}
+
+footer p::before {
+    content: '\00A9';
+}
+
+div.sep {
+    width: 1%;
+    margin-left: -5px;
+    border-right: 1px solid black;
+}
+
+.aWrapper {
+    margin: 20px;
+}
+
+.aWrapper h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.aWrapper p {
+    text-indent: 30px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.sWrapper {
+    margin: 10px;
+}
+
+.sWrapper h3 {
+    text-align: center;
+}
+
+.search {
+    margin-bottom: 10px;
+}
+
+.search input {
+    width: 190px;
+    height: 25px;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+ul.events {
+    margin-left: 20px;
+}
+body{
+    background: #96acb9;
+}
+.slogan{
+    font-family: cursive;
+
+    font-size: 72px;
+    color: rgb(21, 21, 55);
+}
+.logo{
+
+
+    font-family: 'Alumni Sans Inline One', cursive;
+
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+header {
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aWrapper>h1{
+    color: rgb(28, 53, 70);
+}
